@@ -1,0 +1,1 @@
+#ifndef __GAMECTRL_H__#define __GAMECTRL_H__#include <windows.h>//ゲームの開始／終了extern VOID StartGame( BOOL bErase );extern VOID EndGame( VOID );//WndProcに対で対応するextern VOID TimerGame( UINT timerID );extern VOID KeyGame( UINT key );extern VOID CharGame( BYTE code );extern VOID ClickGame( WORD x,WORD y );extern VOID CursorGame( WORD x,WORD y );#endif // __GAMECTRL_H__

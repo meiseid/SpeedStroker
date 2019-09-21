@@ -1,0 +1,1 @@
+#ifndef __MODEB_H__#define __MODEB_H__#include <windows.h>extern VOID StartModeB(  BOOL bErase  );extern BOOL ProcessModeB( VOID );extern VOID DrawModeB( HDC hDC );extern VOID KeyModeB( UINT key );extern VOID CursorModeB( WORD x,WORD y );extern VOID ClickModeB( WORD x,WORD y );// ORIGINALextern INT GetModeBSelection( VOID );#endif // __MODEB_H__

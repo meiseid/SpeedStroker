@@ -1,0 +1,1 @@
+#ifndef __MODED_H__#define __MODED_H__extern VOID StartModeD( BOOL bErase );extern BOOL ProcessModeD( VOID );extern VOID DrawModeD( HDC hDC );#endif // __MODED_H__

@@ -1,0 +1,1 @@
+#ifndef __MODEA_H__#define __MODEA_H__#include <windows.h>extern VOID StartModeA(  BOOL bErase  );extern BOOL ProcessModeA( VOID );extern VOID DrawModeA( HDC hDC );#endif // __MODEA_H__
